@@ -1,0 +1,9 @@
+.classpath
+.project
+.settings/
+.idea/
+pom.xml.versionsBackup
+.#*
+target/
+pom.xml.releaseBackup
+release.properties
