@@ -1,17 +1,19 @@
 
 ## 加入系统命令
 
-* 1、cd sys-shell
+* cd sys-shell
 
-* 2、sudo cp stream-2.8.0-SNAPSHOT-exec.jar /opt/java/lib 
+* sudo cp stream-2.8.0-SNAPSHOT-exec.jar /opt/java/lib 
 
-* 3、sudo vim /etc/profile
+* sudo vim /etc/profile
+
      添加：export STREAM_LIB_PATH=/opt/java/lib
      
-* 4、source /etc/profile
+* source /etc/profile
 
-* 5、sudo cp cardinality /usr/bin
-     sudo cp topk /usr/bin
+* sudo cp cardinality /usr/bin
+
+  sudo cp topk /usr/bin
 
 ## 使用示例
 
